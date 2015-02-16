@@ -1,0 +1,63 @@
+/**
+\mainpage Documentation of Mister Spex
+
+This is the documentation of the software 'Mister Spex'. It was developed for the university course 'Praktische Aspekte der Informatik' in WS 13/14.
+
+The proposal was declared as following:
+
++++++++++++++++++++++ GERMAN ++++++++++++++++++++++++++++++
+
+Student
+Sven Frank, 4442***
+
+Projektname/working title: MisterSpecs
+
+Kurze Zusammenfassung
+
+
+Ein kleines Programm zur Erkennung von bestimmten Körperpartien/Gegenständen 
+aus einem Video oder
+einer Live-Aufnahme. Anschließend können verschiedene Elemente
+auf die getrackten Objekte aufgesetzt werden.
+(Beispiel: digitales Aufsetzen einer Brille [richtige Position im Gesicht])
+
+Detaillierte Beschreibung/Auflistung der Funktionalität
+
+Materialinput:
+- importieren von vorheraufgenommenen Videos (Standard: mp4-Format, h.264 Codec)
+- Echtzeit-Videos über Webcam
+
+Analysefunktionen:
+- Gesichtserkennung bzw. Erkennung von verschiedenen Gesichtspartien, wie z.B. Nase
+
+GUI
+- Anzeige des Videos/Livebildes
+- Auswahl für verschiedene Overlays
+
+Optional:
+- Tracking von weiteren Objekten abseits von Gesichtern
+- Aufzeichnung von Webcamaufnahmen (inkl. Overlays) und Speichern in mp4-Format
+- Unterstützung verschiedener Codes (Import/Export)
+- Erstellen von eigenen Overlays
+- passende Skalierung von Overlays
+- passende GUI-Erweiterung für einzelne optinale Funktionen
+
+Welche externen Bibliotheken/Tools werden benutzt und wofür?
+
+OpenCV: Bildanalyse und -verarbeitung
+Bibliothek zur Endcodierung von Videodateien 
+(Auswertung was sich am besten eignet)
+
+Welche besonderen Anforderungen ergeben sich?
+
+(z.B. komplexe Berechnungen in Echtzeit, 
+effiziente Speicherverwaltung/Verarbeitung großer Datenmengen)
+
+- verschiedene Funktionen
+- Echtzeit-Tracking von Objekten
+- Unterstützung von verschiedenen Dateitypen
+- Verarbeitung der Datenmengen beim Aufzeichnen von Videos
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+*/
